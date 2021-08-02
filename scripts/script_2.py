@@ -5,6 +5,7 @@ Instructions:
 - Assign the status code of the response to status_code.
 """
 
+import pickle
 import requests
 
 response = requests.get('http://api.open-notify.org/iss-pass')
@@ -19,5 +20,8 @@ status_meaning = {
     '403': "The resource you're trying to access is forbidden, and you don't have the right permissions to see it.",
     '404': "The server didn't find the resource you tried to access."
 }
+
+pickle.dump(status_meaning, open(
+    'api_web_scraping/scripts/status_dict.pkl', 'wb'))
 
 print(f"{status_meaning[str(status_code)]} ({status_code})")
