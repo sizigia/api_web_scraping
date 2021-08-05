@@ -1,3 +1,5 @@
+# Understanding Status Codes
+
 The request we just made returned a **status code** of `200`. Web servers return status codes every time they receive an API request. A status code reports what happened with a request. Here are some codes that are relevant to GET requests:
 
 - `200` — Everything went okay, and the server returned a result (if any).

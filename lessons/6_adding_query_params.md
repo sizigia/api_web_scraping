@@ -1,3 +1,5 @@
+## Adding Query Parameters
+
 In the last example, we got a `400` status code, which indicates a bad request. If we look at the documentation for the OpenNotify API, we see that the [`ISS Pass`](http://open-notify.org/Open-Notify-API/ISS-Pass-Times/) endpoint requires two *parameters*.
 
 The ISS Pass endpoint tells us when the ISS will pass over a given location on the Earth.

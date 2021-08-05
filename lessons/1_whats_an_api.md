@@ -1,3 +1,5 @@
+## What's An API?
+
 Using APIs to access web data is a common skill in the data science and analysis world. Working in this increasingly popular and high-earning field requires querying and retrieving data — and often integrating it into your own apps.
 
 An API is a collection of tools that allows different applications to interact. Some of the biggest names on the web (like Reddit, Spotify, Twitter, and Facebook) offer free APIs to make the valuable data on their servers available. Other companies and services charge for these APIs. Learning to work with APIs will prepare you to work in data retrieval and analysis to generate insights and help make valuable predictions.

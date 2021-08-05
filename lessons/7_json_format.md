@@ -1,3 +1,5 @@
+## JSON Format
+
 You may have noticed that the API response we received earlier was a `string`. Strings are how we pass information back and forth through APIs, but it's not easy to get the information we want out of them. How do we know how to decode the string we receive and work with it in Python?
 
 Luckily, there's a format called JSON. (We mentioned it earlier in this lesson.) This format encodes data structures like lists and dictionaries as strings to ensure that machines can read them easily. JSON is the main format for sending and receiving data through APIs.

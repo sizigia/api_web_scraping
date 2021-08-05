@@ -1,3 +1,5 @@
+## Types of Requests
+
 There are many different types of requests. The most common is a GET request, which we use to retrieve data.
 
 We can use a simple GET request to retrieve information from the [`OpenNotify`](http://open-notify.org/) API.
